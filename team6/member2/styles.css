@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+  .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .header > ul {
+    list-style: none;  
+    margin: 0;
+    padding-left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+  }
+  
+  .main > section{
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-left: 40px;
+    color:#CCC;
+    font-family: Pretendard;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .main > section>p{
+    font-size: 20px;
+  }
+  .main > section>h2{
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0;
+  }
+  
+  .footer {
+    background: #CCC;
+    overflow: hidden;
+  }
+  #Tumbler{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./src/teamdeasu.png);
+  }
+  #GPS{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./src/GPS.png);
+  }
+  #Healing{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./src/healing.jpg);
+  }
+  #Daseul{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./src/dasuel.png);
+  }
+  #Introduce{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./src/introduce.jpg);
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  #Introduce>h1{
+    font-size: 100px;
+    margin: 0;
+  }
+  #Introduce>h2{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  #Ending{
+    padding-top: 0%;
+    color:black;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+}
+  #Ending>h3{
+    font-size: 30px;
+  }
+  #Ending>#Credit{
+    align-items: center;
+  }
+
+#ProfileCard {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#ProfileCard img {
+  width: 200px;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+@keyframes rotateRandom {
+  0%, 50% {
+    transform: rotate(var(--random-angle, 0deg));
+  }
+  51%, 100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animatedLetter {
+  display: inline-block;
+  animation: rotateRandom 2s forwards;
+  animation-iteration-count: 1;
+  color: #CCC;
+  font-family: Pretendard;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+
+
+
+
+  
+  
